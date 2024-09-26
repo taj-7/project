@@ -55,6 +55,7 @@ if(strlen($_SESSION['id']==0)) {
 <div class="col-md-12">
 <h5 class="over-title margin-bottom-15">Manage <span class="text-bold">Patients</span></h5>
 	
+<!-- the chanage I have made -->
 <table class="table table-hover" id="sample-table-1">
 <thead>
 <tr>

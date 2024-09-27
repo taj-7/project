@@ -22,13 +22,14 @@
 						<ul class="nav navbar-right">
 							<!-- start: MESSAGES DROPDOWN -->
 								<li  style="padding-top:2% ">
-								<h2>Hospital Management System</h2>
+								<h1>Rajshahi University       </h1>           
+								<h2 align="left">Medical Center            </h2>
 							</li>
 						
 						
 							<li class="dropdown current-user">
 								<a href class="dropdown-toggle" data-toggle="dropdown">
-									<img src="assets/images/images.jpg" > <span class="username">
+									 <span class="username">
 
 
 

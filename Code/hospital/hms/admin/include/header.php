@@ -6,7 +6,7 @@
             <i class="ti-align-justify"></i>
         </a>
         <a class="navbar-brand" href="#">
-            <h2 style="padding-top:20%; color:#000 ">HMS</h2>
+            <h2 style="padding-top:15%; color:#000 ">RUMC</h2>
         </a>
         <a href="#" class="sidebar-toggler pull-right visible-md visible-lg" data-toggle-class="app-sidebar-closed" data-toggle-target="#app">
             <i class="ti-align-justify"></i>
@@ -21,10 +21,9 @@
     <!-- start: NAVBAR COLLAPSE -->
     <div class="navbar-collapse collapse">
         <!-- Left-aligned text -->
-        <ul class="nav navbar-left" style="padding-top:2%;">
+        <ul class="nav navbar-left" style="padding-top:1%;">
             <li>
-                <h1 style="margin:0;">Rajshahi University</h1>
-                <h2 style="margin:0;">Medical Center</h2>
+                <h1>Rajshahi University Medical Center</h2>
             </li>
         </ul>
 

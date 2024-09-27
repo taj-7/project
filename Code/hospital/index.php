@@ -380,8 +380,8 @@ while ($row=mysqli_fetch_array($ret)) {
     </footer>
    
     <div class="copy">
-            <div class="container">
-            ©Hospital Management System 2023
+            <div class="container" align="right">
+            Project- Hospital Management System by Taj & Sohag
                 
      
             </div>

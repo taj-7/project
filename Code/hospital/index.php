@@ -36,13 +36,10 @@ echo "<script>window.location.href ='index.php'</script>";
         <div id="nav-head" class="header-nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md-3  col-sm-12" style="color:#000;font-weight:bold; font-size:42px; margin-top: 1% !important;">
-                       <a href="#" ><img src="assets\images\ru.png" height=100 width=100 alt="ru_logo"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    <div class="col-lg-2 col-md-3  col-sm-12" style="color:#000;font-weight:bold; font-size:42px; margin-top: 0.3% !important;">
+                       <a href="#" ><img src="assets\images\ru.png" height=70 width=70 alt="ru_logo"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
                     </div>
-                 <div class="title">
-                <h3 style="color:DodgerBlue;" >University of Rajshahi</h3>
-                <h6 style="color:white;">Medical Center</h6>
-            </div>
+
                     <div id="menu" class="col-lg-8 col-md-9 d-none d-md-block nav-item">
                         <ul>
                             <li>
@@ -50,15 +47,19 @@ echo "<script>window.location.href ='index.php'</script>";
                             <li><a href="#services">Services</a></li>
                             <li><a href="#about_us">About Us</a></li>
                             <li><a href="#logins">Logins</a></li>  
+                            <li></li>
+                            <li>
+        <a href="https://maps.app.goo.gl/zrk55fvr4oJrxgCe7" target="_blank" ><h6 style="color:blue;" >Location</h6></a></li>
                         </ul>
+                        
                     </div>
-                    <div class="col-sm-2 d-none d-lg-block appoint">
-                        <a class="btn btn-success" href="hms/user-login.php">Book an Appointment</a>
-                    </div>
+
                 </div>
 
             </div>
+            
         </div>
+        
     </header>
     
      <!-- ################# Slider Starts Here#######################--->
@@ -96,10 +97,10 @@ echo "<script>window.location.href ='index.php'</script>";
 
             <div class="carousel-inner">
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="assets/images/slider/slider_13.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="assets/images/slider/9.png" alt="Second slide">
                     <div class="carousel-cover"></div>
                     <div class="carousel-caption vdg-cur d-none d-md-block">
-                        <h5 class="animated zoomInUp">Our Specialized Doctors</h5>
+                        <h5 class="animated zoomInUp">Rajshahi University, Medical Center</h5>
             
                          
                     
@@ -112,10 +113,10 @@ echo "<script>window.location.href ='index.php'</script>";
               
                 
                 <div class="carousel-item active">
-                    <img  class="d-block w-100" src="assets/images/slider/slider_7.jpg" alt="Third slide">
+                    <img  class="d-block w-100" src="assets/images/slider/4.jpg" alt="Third slide">
                       <div class="carousel-cover"></div>
                     <div class="carousel-caption vdg-cur d-none d-md-block">
-                        <h5 class="animated zoomInUp">Rajshahi Medical College Hospital EST.1958</h5>
+                        <h5 class="animated zoomInUp">Rajshahi University, Medical Center</h5>
             
                          
                     
@@ -124,10 +125,10 @@ echo "<script>window.location.href ='index.php'</script>";
                 </div>
 
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="assets/images/slider/slider_9.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="assets/images/slider/2.jpg" alt="Second slide">
                     <div class="carousel-cover"></div>
                     <div class="carousel-caption vdg-cur d-none d-md-block">
-                        <h5 class="animated zoomInUp">Database Management</h5>
+                        <h5 class="animated zoomInUp">Medical Garden</h5>
             
                          
                     
@@ -137,10 +138,10 @@ echo "<script>window.location.href ='index.php'</script>";
                     
                 </div>
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="assets/images/slider/slider_5.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="assets/images/slider/33.jpg" alt="Second slide">
                     <div class="carousel-cover"></div>
                     <div class="carousel-caption vdg-cur d-none d-md-block">
-                        <h5 class="animated zoomInUp">On Going Operation</h5>
+                        <h5 class="animated zoomInUp">Ambulence Services</h5>
             
                          
                     
@@ -150,7 +151,7 @@ echo "<script>window.location.href ='index.php'</script>";
                     
                 </div>
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="assets/images/slider/slider_2.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="assets/images/slider/22.jpeg" alt="Second slide">
                     <div class="carousel-cover"></div>
                     <div class="carousel-caption vdg-cur d-none d-md-block">
                         <h5 class="animated zoomInUp">Operation Theater(OT)</h5>

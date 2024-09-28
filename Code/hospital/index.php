@@ -180,6 +180,71 @@ echo "<script>window.location.href ='index.php'</script>";
     
   
 
+  <!--  ************************* Logins ************************** -->
+    
+    
+  <section id="logins" class="our-blog container-fluid">
+        <div class="container">
+
+
+                <h2>Logins</h2>
+        
+            <div class="col-sm-12 blog-cont">
+                <div class="row no-margin">
+                    <div class="col-sm-4 blog-smk">
+                        <div class="blog-single">
+
+                            
+
+                            <div class="blog-single-det">
+                                <h6>Patient Login</h6>
+                                <a href="hms/user-login.php" target="_blank">
+                                    <button class="btn btn-success btn-sm">Click Here</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 blog-smk">
+                        <div class="blog-single">
+
+                             
+
+                            <div class="blog-single-det">
+                                <h6>Doctors login</h6>
+                                <a href="hms/doctor" target="_blank">
+                                    <button class="btn btn-success btn-sm">Click Here</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4 blog-smk">
+                        <div class="blog-single">
+
+                            
+
+                            <div class="blog-single-det">
+                                <h6>Admin Login</h6>
+                    
+                                <a href="hms/admin" target="_blank">
+                                    <button class="btn btn-success btn-sm">Click Here</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>  
+
+
 
 
     <!-- ################# Our Departments Starts Here#######################--->
@@ -189,7 +254,7 @@ echo "<script>window.location.href ='index.php'</script>";
         <div class="container">
         
 
-                <h2>Our Key Features</h2>
+                <h2><i>Our Key Facilities</i></h2>
               
 
             <div class="row">
@@ -217,14 +282,14 @@ echo "<script>window.location.href ='index.php'</script>";
                 <div class="col-lg-4 col-md-6">
                     <div class="single-key">
                         <i class="fas fa-capsules"></i>
-                        <h5>Pharma Pipeline</h5>
+                        <h5>Pharmacy</h5>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-key">
                         <i class="fas fa-prescription-bottle-alt"></i>
-                        <h5>Pharma Team</h5>
+                        <h5>Aid Team</h5>
                     </div>
                 </div>
 
@@ -249,114 +314,22 @@ echo "<script>window.location.href ='index.php'</script>";
     </section>
     <hr/>
     
-    <!--  ************************* Logins ************************** -->
-    
-    
-    <section id="logins" class="our-blog container-fluid">
-        <div class="container">
+                               
+                        <img src="assets/images/slider/55.png" style="width: 50%; float: left;">
+                        <img  src="assets/images/slider/11.jpg" style="width: 50%; float: right;">
+                            
 
-
-                <h2>Logins</h2>
-        
-            <div class="col-sm-12 blog-cont">
-                <div class="row no-margin">
-                    <div class="col-sm-4 blog-smk">
-                        <div class="blog-single">
-
-                                <img src="assets/images/patient.jpg" alt="">
-
-                            <div class="blog-single-det">
-                                <h6>Patient Login</h6>
-                                <a href="hms/user-login.php" target="_blank">
-                                    <button class="btn btn-success btn-sm">Click Here</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 blog-smk">
-                        <div class="blog-single">
-
-                                <img src="assets/images/doctor.jpg" alt="">
-
-                            <div class="blog-single-det">
-                                <h6>Doctors login</h6>
-                                <a href="hms/doctor" target="_blank">
-                                    <button class="btn btn-success btn-sm">Click Here</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4 blog-smk">
-                        <div class="blog-single">
-
-                                <img src="assets/images/admin.jpg" alt="">
-
-                            <div class="blog-single-det">
-                                <h6>Admin Login</h6>
-                    
-                                <a href="hms/admin" target="_blank">
-                                    <button class="btn btn-success btn-sm">Click Here</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                    
-
-                    
-                    
-                </div>
-            </div>
-            
-        </div>
-    </section>  
-
-
-
-
-  
-    
-    <!--  ************************* About Us Starts Here ************************** -->
-    <section id="about_us" class="about-us">
-        <div class="row no-margin">
-            
-            <div class="col-sm-6 abut-yoiu">
-                <h3>About Our Hospital</h3>
-<?php
-$ret=mysqli_query($con,"select * from tblpage where PageType='aboutus' ");
-while ($row=mysqli_fetch_array($ret)) {
-?>
-
-    <p><?php  echo $row['PageDescription'];?>.</p><?php } ?>
-            </div>
-            <div class="col-sm-6 image-bg no-padding">
-                
-            </div>
-        </div>
-    </section>    
-   
-
-            <!--  ************************* Gallery Starts Here ************************** -->
-       
-        <!-- ######## Gallery End ####### -->
-    
-    
-    
-    
-    
     <!-- ################# Footer Starts Here#######################--->
 
 
-    <footer class="footer">
+    <footer  class="footer">
         <div class="container">
-            <div class="row">
+            <div>
        
                 
-                <div class="col-md-6 col-sm-12 map-img">
+                <div class="col-md-6 col-sm-12 map-img" >
                     <h3>Contact Us</h3>
-                    <address class="md-margin-bottom-40">
+                    <address class="md-margin-bottom-50">
 
 <?php
 $ret=mysqli_query($con,"select * from tblpage where PageType='contactus' ");
